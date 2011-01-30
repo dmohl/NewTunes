@@ -29,7 +29,7 @@
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Margin="0,0,0,17" Width="432">
-                                <Image Source="{Binding ArtistViewUrl}" />
+                                <Image Source="{Binding ArtworkUrl100}" />
                                 <TextBlock Text="{Binding ArtistName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
                                 <TextBlock Text="{Binding CollectionName}" TextWrapping="Wrap" Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
                             </StackPanel>

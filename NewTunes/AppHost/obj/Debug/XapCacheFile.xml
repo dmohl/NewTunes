@@ -1,9 +1,9 @@
-﻿<xapCache source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\WindowsPhonePanoramaAppHost.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="1/30/2011 5:13:27 PM">
+﻿<xapCache source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\WindowsPhonePanoramaAppHost.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="1/30/2011 5:21:15 PM">
   <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="1/30/2011 5:11:10 PM" />
-  <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\obj\Debug\WindowsPhonePanoramaAppHost.dll" archivePath="WindowsPhonePanoramaAppHost.dll" lastWriteTime="1/30/2011 5:13:27 PM" />
+  <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\obj\Debug\WindowsPhonePanoramaAppHost.dll" archivePath="WindowsPhonePanoramaAppHost.dll" lastWriteTime="1/30/2011 5:21:14 PM" />
   <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\Dependencies\Caliburn.Micro.dll" archivePath="Caliburn.Micro.dll" lastWriteTime="9/23/2010 9:59:24 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.0\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="9/1/2010 3:51:10 AM" />
-  <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\NewTunes.dll" archivePath="NewTunes.dll" lastWriteTime="1/30/2011 5:13:26 PM" />
+  <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\NewTunes.dll" archivePath="NewTunes.dll" lastWriteTime="1/30/2011 5:21:13 PM" />
   <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\FSharp.Core.dll" archivePath="FSharp.Core.dll" lastWriteTime="9/18/2010 3:39:50 PM" />
   <file source="c:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="9/1/2010 1:41:46 AM" />
   <file source="c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="1/30/2011 5:08:50 PM" />
