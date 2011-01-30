@@ -1,0 +1,1 @@
+http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStoreServices.woa/wa/wsSearch?term=the%20script&media=music&entity=album&attribute=artistTerm
