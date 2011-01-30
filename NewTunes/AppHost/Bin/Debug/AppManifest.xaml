@@ -3,7 +3,7 @@
     <AssemblyPart x:Name="WindowsPhonePanoramaAppHost" Source="WindowsPhonePanoramaAppHost.dll" />
     <AssemblyPart x:Name="Caliburn.Micro" Source="Caliburn.Micro.dll" />
     <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
-    <AssemblyPart x:Name="WindowsPhonePanoramaApp" Source="WindowsPhonePanoramaApp.dll" />
+    <AssemblyPart x:Name="NewTunes" Source="NewTunes.dll" />
     <AssemblyPart x:Name="FSharp.Core" Source="FSharp.Core.dll" />
     <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
   </Deployment.Parts>

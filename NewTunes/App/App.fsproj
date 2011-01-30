@@ -10,10 +10,10 @@
     <!-- Windows Phone Flavour == C089C8C0-30E0-4E22-80C0-CE093F111A43 -->
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{f2a71f9b-5d33-465a-a702-920d77279786}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>WindowsPhonePanoramaApp</RootNamespace>
-    <AssemblyName>WindowsPhonePanoramaApp</AssemblyName>
+    <RootNamespace>NewTunes</RootNamespace>
+    <AssemblyName>NewTunes</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <Name>WindowsPhonePanoramaApp</Name>
+    <Name>NewTunes</Name>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <TargetFrameworkProfile>WindowsPhone</TargetFrameworkProfile>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
@@ -27,7 +27,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\WindowsPhonePanoramaApp.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\NewTunes.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -36,7 +36,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\WindowsPhonePanoramaApp.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\NewTunes.xml</DocumentationFile>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.

@@ -20,7 +20,7 @@ namespace WindowsPhonePanoramaAppHost
         // Easy access to the root frame
         public PhoneApplicationFrame RootFrame { get; private set; }
 
-        WindowsPhonePanoramaApp.App app;
+        NewTunes.App app;
 
         // Constructor
         public AppHost()
@@ -28,7 +28,7 @@ namespace WindowsPhonePanoramaAppHost
             // Standard Silverlight initialization
             InitializeComponent();
 
-            app = new WindowsPhonePanoramaApp.App(this);
+            app = new NewTunes.App(this);
         }
     }
 }

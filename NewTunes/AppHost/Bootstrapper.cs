@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Phone.Tasks;
 using Caliburn.Micro;
-using WindowsPhonePanoramaApp;
+using NewTunes;
 
 namespace WindowsPhonePanoramaAppHost
 {

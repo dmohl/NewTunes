@@ -1,4 +1,4 @@
-namespace WindowsPhonePanoramaApp
+namespace NewTunes
 
 open System.Runtime.Serialization
 open System.Runtime.Serialization.Json

@@ -1,4 +1,4 @@
-﻿namespace WindowsPhonePanoramaApp
+﻿namespace NewTunes
 
 open System
 open System.Net
@@ -21,7 +21,7 @@ open Caliburn.Micro
 type MainPage() as this =
     inherit PhoneApplicationPage()
     // Load the Xaml for the page.
-    do Application.LoadComponent(this, new System.Uri("/WindowsPhonePanoramaApp;component/MainPage.xaml", System.UriKind.Relative))
+    do Application.LoadComponent(this, new System.Uri("/NewTunes;component/MainPage.xaml", System.UriKind.Relative))
 
 /// One instance of this type is created in the application host project.
 type App(app:Application) = 
@@ -34,4 +34,4 @@ type App(app:Application) =
      )
 
     let navigationService = IoC.Get<INavigationService>()
-    do navigationService.Navigate(new Uri("/WindowsPhonePanoramaApp;component/MainPage.xaml", UriKind.Relative)) |> ignore
+    do navigationService.Navigate(new Uri("/NewTunes;component/MainPage.xaml", UriKind.Relative)) |> ignore
