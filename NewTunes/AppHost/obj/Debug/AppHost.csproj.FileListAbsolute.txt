@@ -33,3 +33,5 @@ c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\WindowsPhonePanoramaAppHost.pdb
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\obj\Debug\WindowsPhonePanoramaAppHost.dll
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\obj\Debug\WindowsPhonePanoramaAppHost.pdb
+C:\Users\Daniel Mohl\Documents\Visual Studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\Newtonsoft.Json.WindowsPhone.dll
+C:\Users\Daniel Mohl\Documents\Visual Studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\Newtonsoft.Json.WindowsPhone.xml

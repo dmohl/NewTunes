@@ -5,29 +5,39 @@ namespace NewTunes
     open System
     open System.IO
     open System.Net
-    open System.Runtime.Serialization.Json
+    open System.Runtime.Serialization
+    open Newtonsoft.Json
 
     type MainPageViewModel() =
         inherit Screen()        
-                
-        let BuildITunesUrl searchTerm =
-            sprintf "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStoreServices.woa/wa/wsSearch?term=%s&media=music&entity=album&attribute=artistTerm&limit=5" searchTerm
+               
+        let urlToSearchByArtistIds = "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStoreServices.woa/wa/wsLookup?id={0}&entity=album&sort=recent"
+        let urlToSearchBySearchTerm = "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStoreServices.woa/wa/wsSearch?term=%s&media=music&entity=album&attribute=artistTerm&limit=10"
+        
+        let BuildITunesUrl urlTemplate searchTerm =
+            String.Format(urlTemplate, [|searchTerm|])
         let artists = new ObservableCollection<ItemViewModel>()
         let artistCollections = new ObservableCollection<ItemViewModel>()
 
-        member x.GetAll<'a> url =
-            let deserializer = new DataContractJsonSerializer(typeof<iTunesJsonResults>)
+        member x.GetAll<'a> urlTemplate searchTerm =
+            let url = BuildITunesUrl urlTemplate (Uri.EscapeDataString searchTerm)  
             let webClient = new WebClient()
-            webClient.OpenReadCompleted.Add(fun result -> let res = deserializer.ReadObject(result.Result) :?> iTunesJsonResults
-                                                          res.JsonResults 
-                                                          |> Seq.iter(fun artistCollection -> artistCollections.Add(artistCollection)) 
-                                                          let allArtists = res.JsonResults |> Seq.distinctBy(fun a -> a.ArtistName) 
-                                                          allArtists |> Seq.iter(fun artist -> artists.Add(artist)))
-            webClient.OpenReadAsync(Uri url)
+            webClient.DownloadStringCompleted.Add(fun result -> let res = JsonConvert.DeserializeObject<iTunesJsonResults>(result.Result)
+                                                                res.JsonResults 
+                                                                |> Seq.filter(fun row -> row.CollectionName.Trim() <> "")
+                                                                |> Seq.iter(fun artistCollection -> artistCollections.Add(artistCollection)) 
+                                                                artistCollections |> Seq.distinctBy(fun a -> a.ArtistName)
+                                                                |> Seq.iter(fun artist -> artists.Add(artist)))
+            webClient.DownloadStringAsync(Uri url)
 
         member x.BuildArtists() =
-            x.GetAll<ItemViewModel> (BuildITunesUrl "The%20Script") 
+            artistCollections.Clear()
+            artists.Clear()
+            x.GetAll<ItemViewModel> urlToSearchByArtistIds "273179909,277228393,159260351,264712928"
             
+        member x.FindArtists searchTerm =
+            x.GetAll<ItemViewModel> urlToSearchBySearchTerm searchTerm
+
         member x.AllArtists 
             with get() = 
                 match artists.Count with

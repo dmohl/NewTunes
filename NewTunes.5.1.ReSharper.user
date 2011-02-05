@@ -1,0 +1,58 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:SimpleContainer.cs" caret="0" fromTop="0" />
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:PhoneContainer.cs" caret="0" fromTop="0" />
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:App.xaml.cs" caret="824" fromTop="4" />
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:Bootstrapper.cs" caret="117" fromTop="4" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:AppLogic.fs" caret="1281" fromTop="9" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1980" fromTop="25" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:ItemViewModel.fs" caret="683" fromTop="14" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="214" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1526" fromTop="7" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:AppLogic.fs" caret="618" fromTop="2" />
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:App.xaml.cs" caret="630" fromTop="4" />
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:App.xaml.cs" caret="824" fromTop="4" />
+      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:Bootstrapper.cs" caret="117" fromTop="4" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="2226" fromTop="10" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:AppLogic.fs" caret="1281" fromTop="9" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:ItemViewModel.fs" caret="293" fromTop="3" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:ItemViewModel.fs" caret="714" fromTop="8" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1755" fromTop="8" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="1696" fromTop="12" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="736" fromTop="6" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="997" fromTop="9" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="2168" fromTop="10" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="2164" fromTop="9" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="333" fromTop="6" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="1951" fromTop="4" />
+      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="214" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="AppHost`0" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="NewTunes" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
