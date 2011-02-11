@@ -1,5 +1,3 @@
-c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\Dependencies\Caliburn.Micro.dll
-c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\Dependencies\FSharp.Core.dll
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\ApplicationIcon.png
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\Background.png
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\AppHost\Bin\Debug\SplashScreenImage.jpg

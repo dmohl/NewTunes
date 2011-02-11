@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{ce190779-ec4c-4b00-b0c7-a9e9d0461e92}</ProjectGuid>
+    <ProjectGuid>{fb8021ee-2b30-4058-9913-7f73841b8d4f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>App.Tests</RootNamespace>
     <AssemblyName>App.Tests</AssemblyName>
@@ -48,6 +48,9 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ItemViewModel.Tests.fs" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\NewTunes\App\App.fsproj">
       <Name>App</Name>
       <Project>{53dbd955-771b-4679-bdd4-2ce76fdbeeba}</Project>
@@ -58,9 +61,6 @@
       <Project>{ab0f0605-b72b-451f-822e-625dd0b4b61f}</Project>
       <Private>True</Private>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="ItemViewModel.Tests.fs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="!Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition=" Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />

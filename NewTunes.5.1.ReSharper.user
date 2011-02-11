@@ -12,39 +12,24 @@
       <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:PhoneContainer.cs" caret="0" fromTop="0" />
       <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:App.xaml.cs" caret="824" fromTop="4" />
       <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:Bootstrapper.cs" caret="117" fromTop="4" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:ItemViewModel.fs" caret="588" fromTop="15" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:AppLogic.fs" caret="1122" fromTop="9" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1685" fromTop="6" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="1250" fromTop="13" />
-      <File id="AB0F0605-B72B-451F-822E-625DD0B4B61F/f:FsUnit.fs" caret="18" fromTop="1" />
-      <File id="CE190779-EC4C-4B00-B0C7-A9E9D0461E92/f:ItemViewModel.Tests.fs" caret="0" fromTop="0" />
+      <File id="AB0F0605-B72B-451F-822E-625DD0B4B61F/f:FsUnit.NUnit-0.9.0.fs" caret="79" fromTop="0" />
+      <File id="d:Miscellaneous Files/f:App.fsproj/l:c!?users?daniel mohl?documents?visual studio 2010?Projects?NewTunes?NewTunes?App?App.fsproj" caret="2989" fromTop="6" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="1942" fromTop="4" />
+      <File id="FB8021EE-2B30-4058-9913-7F73841B8D4F/f:ItemViewModel.Tests.fs" caret="264" fromTop="10" />
     </RecentFiles>
     <RecentEdits>
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="2154" fromTop="7" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:AppLogic.fs" caret="618" fromTop="2" />
-      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:App.xaml.cs" caret="630" fromTop="4" />
-      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:App.xaml.cs" caret="824" fromTop="4" />
-      <File id="52A69CE4-8BCE-4BDE-9DA7-CEFADBF0807D/f:Bootstrapper.cs" caret="117" fromTop="4" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:AppLogic.fs" caret="1281" fromTop="9" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:ItemViewModel.fs" caret="293" fromTop="3" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:ItemViewModel.fs" caret="714" fromTop="8" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="1637" fromTop="12" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="2200" fromTop="10" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="2196" fromTop="9" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="1807" fromTop="10" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="899" fromTop="0" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="209" fromTop="0" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="1761" fromTop="16" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="2154" fromTop="5" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1043" fromTop="6" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="2177" fromTop="6" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="895" fromTop="3" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1338" fromTop="6" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1172" fromTop="6" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/f:MainPage.xaml" caret="1685" fromTop="6" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="449" fromTop="13" />
-      <File id="53DBD955-771B-4679-BDD4-2CE76FDBEEBA/d:ViewModels/f:MainPageViewModel.fs" caret="2027" fromTop="14" />
-      <File id="AB0F0605-B72B-451F-822E-625DD0B4B61F/f:FsUnit.fs" caret="18" fromTop="1" />
+      <File id="AB0F0605-B72B-451F-822E-625DD0B4B61F/f:FsUnit.NUnit-0.9.0.fs" caret="79" fromTop="1" />
+      <File id="d:Miscellaneous Files/f:App.fsproj/l:c!?users?daniel mohl?documents?visual studio 2010?Projects?NewTunes?NewTunes?App?App.fsproj" caret="3058" fromTop="7" />
+      <File id="d:Miscellaneous Files/f:App.fsproj/l:c!?users?daniel mohl?documents?visual studio 2010?Projects?NewTunes?NewTunes?App?App.fsproj" caret="2548" fromTop="5" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="694" fromTop="8" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="1019" fromTop="7" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="1564" fromTop="8" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="3080" fromTop="6" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="694" fromTop="7" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="479" fromTop="1" />
+      <File id="d:Miscellaneous Files/f:App.Tests.fsproj/l:C!?Users?Daniel Mohl?Documents?Visual Studio 2010?Projects?NewTunes?tests?App.Tests?App.Tests.fsproj" caret="1942" fromTop="4" />
+      <File id="FB8021EE-2B30-4058-9913-7F73841B8D4F/f:ItemViewModel.Tests.fs" caret="0" fromTop="0" />
+      <File id="FB8021EE-2B30-4058-9913-7F73841B8D4F/f:ItemViewModel.Tests.fs" caret="1272" fromTop="12" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

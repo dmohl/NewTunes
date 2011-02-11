@@ -17,6 +17,7 @@ namespace WindowsPhonePanoramaAppHost
             container.RegisterSingleton(typeof(MainPageViewModel), "MainPageViewModel", typeof(MainPageViewModel));
             container.RegisterSingleton(typeof(ItemViewModel), "ItemViewModel", typeof(ItemViewModel));
 
+            container.RegisterInstance(typeof(iTunesRepository), null, new iTunesRepository());
             container.RegisterInstance(typeof(INavigationService), null, new FrameAdapter(RootFrame));
             container.RegisterInstance(typeof(IPhoneService), null, new PhoneApplicationServiceAdapter(PhoneService));
 

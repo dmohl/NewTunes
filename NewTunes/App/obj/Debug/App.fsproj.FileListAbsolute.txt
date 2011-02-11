@@ -1,5 +1,3 @@
-c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\Dependencies\Caliburn.Micro.dll
-c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\Dependencies\FSharp.Core.dll
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\Caliburn.Micro.dll
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\FSharp.Core.dll
 c:\users\daniel mohl\documents\visual studio 2010\Projects\NewTunes\NewTunes\App\bin\Debug\Microsoft.Phone.Controls.dll

@@ -50,6 +50,8 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.Common.targets" />
   <ItemGroup>
+    <Compile Include="Repository\Utils.fs" />
+    <Compile Include="Repository\iTunesRepository.fs" />
     <Compile Include="ViewModels\ItemViewModel.fs" />
     <Compile Include="ViewModels\MainPageViewModel.fs" />
     <Compile Include="AppLogic.fs" />
@@ -57,22 +59,13 @@
     <Resource Include="MainPage.xaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <None Include="Dependencies\Caliburn.Micro.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Dependencies\FSharp.Core.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Dependencies\FSharp.Core.optdata" />
-    <None Include="Dependencies\FSharp.Core.sigdata" />
-    <None Include="Dependencies\FSharp.Core.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Caliburn.Micro">
-      <HintPath>Dependencies\Caliburn.Micro.dll</HintPath>
+      <HintPath>..\..\lib\Caliburn.Micro.dll</HintPath>
     </Reference>
     <Reference Include="FSharp.Core">
-      <HintPath>Dependencies\FSharp.Core.dll</HintPath>
+      <HintPath>..\..\lib\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Controls">
