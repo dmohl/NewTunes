@@ -5,30 +5,37 @@ namespace NewTunes
     open System
     open System.IO
     open Newtonsoft.Json
+    open System.Windows
 
-    type MainPageViewModel(repository : iTunesRepository) =
-        inherit Screen()        
-        let mutable artists = new ObservableCollection<ItemViewModel>()
+    type MainPageViewModel(repository : iTunesRepository) as x =
+        inherit Screen()       
+        let artists = new ObservableCollection<ItemViewModel>()
         let artistCollections = new ObservableCollection<ItemViewModel>()
-        let ParseArtistCollection (json:string) =
-            let jsonResults = JsonConvert.DeserializeObject<iTunesJsonResults> json 
-            jsonResults.JsonResults 
-            |> Seq.filter(fun row -> row.CollectionName.Trim() <> "")
-            |> Seq.iter(fun artistCollection -> artistCollections.Add(artistCollection)) 
-            artistCollections |> Seq.distinctBy(fun a -> a.ArtistName)
-            |> Seq.iter(fun artist -> artists.Add(artist))
+                        
+        let parseArtistCollection (json:string) =
+            Deployment.Current.Dispatcher.BeginInvoke(fun _ -> 
+                artistCollections.Clear()
+                artists.Clear()
+                let jsonResults = JsonConvert.DeserializeObject<iTunesJsonResults> json 
+                jsonResults.JsonResults 
+                |> Seq.filter(fun row -> row.CollectionName.Trim() <> "")
+                |> Seq.iter(fun artistCollection -> artistCollections.Add(artistCollection)) 
+                artistCollections |> Seq.distinctBy(fun a -> a.ArtistName)
+                |> Seq.iter(fun artist -> artists.Add(artist))
+                x.NotifyOfPropertyChanges()) |> ignore
 
         let jsonProcessingAgent = MailboxProcessor.Start(fun inbox ->
                                                             async { while true do
                                                                     let! json = inbox.Receive()
-                                                                    ParseArtistCollection json })
-        
+                                                                    parseArtistCollection json })
+
         let retrieveArtistCollections artistIds =
-            artistCollections.Clear()
-            artists.Clear()
             repository.GetAllByArtistIds jsonProcessingAgent artistIds
-        
+
         do retrieveArtistCollections "273179909,277228393,159260351,264712928"
+
+        member internal x.NotifyOfPropertyChanges() =
+            base.NotifyOfPropertyChange("AllArtists")
 
         member x.BuildArtists artistIds =
             retrieveArtistCollections "273179909,277228393,159260351,264712928"
@@ -36,7 +43,5 @@ namespace NewTunes
         member x.FindArtists searchTerm =
             repository.GetAllBySearch jsonProcessingAgent searchTerm
 
-        member x.AllArtists 
-            with get() = artists
-            and set v = artists <- v; base.NotifyOfPropertyChange "AllArtists"
+        member x.AllArtists = artists
                 
